@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1c1c1c;
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+/* CSS for the Button */
+button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 2px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+    background-color: #ff6600;
+    cursor: pointer;
+    box-shadow: 0 0 100px #ff6600;
+}
+button:hover{
+    box-shadow: 0 0 100px #ff6600;
+    transition: .25s;
+}
+button:active{
+    transform: scale(95%);
+    box-shadow: 0 0 100px #ff6600;
+}
